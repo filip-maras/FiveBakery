@@ -2,21 +2,21 @@
 **Project setup**
 
 **Prerequisites:**
--Install IntelliJ
--Install Java (get for e.g. JDK 11) *it was used OpenJDK-11 
--Add Java to path - Windows (JAVA_HOME=path\to\your\jdk\jdk-11)
--Install maven (e.g. 3.6.3)
--Add maven to path: (MAVEN_HOME=path\to\your\maven_dir\apache-maven-3.6.3)
+1. Install IntelliJ
+2. Install Java (get for e.g. JDK 11) *it was used OpenJDK-11 
+3. Add Java to path - Windows (JAVA_HOME=path\to\your\jdk\jdk-11)
+4. Install maven (e.g. 3.6.3)
+5. Add maven to path: (MAVEN_HOME=path\to\your\maven_dir\apache-maven-3.6.3)
 		    (M2_HOME=path\to\your\maven_dir\apache-maven-3.6.3)
--Add next values to path variable: ;%M2_HOME%\bin; and ;%JAVA_HOME%\bin;
--Use git to clone repository
--Download ChromeDriver, unzip it and place it to FiveBakery\src\test\java\DriverConfigurations
--Add ChromeDriver to path variable (;path\to\FiveBakery\src\test\java\DriverConfigurations;) 
--Open project with IntelliJ 
--Update ChromeDriver path in ..\DriverConfigurations\Initiate with path to your ChromeDriver (do not forget .exe at the end of path if you are using Win)
+6. Add next values to path variable: ;%M2_HOME%\bin; and ;%JAVA_HOME%\bin;
+7. Use git to clone repository
+8. Download ChromeDriver, unzip it and place it to FiveBakery\src\test\java\DriverConfigurations
+9. Add ChromeDriver to path variable (;path\to\FiveBakery\src\test\java\DriverConfigurations;) 
+10. Open project with IntelliJ 
+11. Update ChromeDriver path in ..\DriverConfigurations\Initiate with path to your ChromeDriver (do not forget .exe at the end of path if you are using Win)
 (example of path "path\to\project\\FiveBakery\\src\\test\\java\\DriverConfigurations\\chromedriver.exe")
 
-Project structure..
+**Project structure**
 Navigating to  FiveBakery\src\test\java\ we can see 6 directories. 
  1. DriverConfigurations contains 3 files: chromedriver.exe, ElementActions.java and Initiate.java
 	1. chromedriver is executable file needed for running tests in GoogleChrome
