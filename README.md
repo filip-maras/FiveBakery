@@ -37,3 +37,8 @@ Navigating to  FiveBakery\src\test\java\ we can see 6 directories.
 
 Each test is standalone. By running suite TestSuite.xml, one will run all tests in parallel. Maximum number of threads (number of chrome browsers) 
 is set to 4 which will be maximum number of tests that will run simultaneously.
+
+**NOTE**
+If test-output directory is not created on first test run, open IntelliJ, from toolbar click on Run->Edit Configurations
+New window will be oppened and inside that window you need to click on Listeners tab and mark checkmark Use Default Reporters.
+On next test run test-output directory will be created and inside we can find reports that are created for each test run.
